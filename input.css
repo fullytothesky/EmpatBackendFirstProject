@@ -1,0 +1,59 @@
+body{
+    font-family: "Arial Narrow";
+}
+
+.button{
+    font-family: inherit;
+
+}
+.main{
+    background-image: url(https://vechirniy.kyiv.ua/uploads/2023/12/16/gease2on9hdyrouefakgq1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+form,.output{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    width:700px;
+    min-height: 400px;
+    background-color: rgba(31, 15, 63, 0.92);
+    flex-direction: column;
+    color: white;
+    align-items: center;
+
+}
+
+h1{
+    font-size: 30px;
+    margin: 40px 0px 25px 0px;
+}
+
+input{
+    margin: 15px;
+    height: 35px;
+    width: 250px;
+    background-color: rgba(139, 108, 202, 0.41);
+    border: none;
+    font-family: inherit;
+    color: white;
+    border-radius: 30px;
+    text-align: center;
+}
+
+button{
+    background-color: red;
+    color: white;
+    font-size: 25px;
+    border: none;
+    border-radius: 2px;
+    padding: 10px 30px;
+    margin:20px 0px 40px 0px;
+    font-style: italic;
+    font-weight: bold;
+}
